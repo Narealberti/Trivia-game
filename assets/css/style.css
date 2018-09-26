@@ -1,0 +1,47 @@
+.buttons { 
+	width: 50%;
+	height: 50%;
+ }
+
+h1 { 
+	font-family: 'Indie Flower', cursive, sans-serif; 
+	font-size: 100px;
+	font-weight: bold;
+	text-align: center; 
+	text-transform: uppercase;
+	text-shadow: 3px 2px cornsilk;
+	color: yellow;
+}
+
+.timer, .question, .results, .gif-screen, .correct, .incorrect, .unanswered, .start-button, .restart-button { 
+	text-align: center; 
+	font-family: 'Indie Flower', cursive, sans-serif; 
+	font-size: 30px;
+	text-shadow: 2px 1px cornsilk;
+}
+
+.winGif, .loseGif, .endGif {
+	width: 25%;
+	height: 35%;
+	
+}
+
+.wallpaper {
+	background-image: url("../images/wallpaper.jpg"); 
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.timer {
+	font-size: 40px;
+	color: yellow;
+	text-shadow: 2px 1px cornsilk;
+
+}
+
+.scoreboard {
+	margin: 0 auto;
+	background-color: white;
+	width: 50%;
+	opacity: 0.6;
+}
